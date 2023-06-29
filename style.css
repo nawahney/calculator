@@ -16,7 +16,12 @@ button {
     font-size: 15px;
     color: #98A8F8;
     box-shadow: 3px 3px #97f8ed;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
 }
+
 
 button:hover {
     background-color: #baf0e9;
