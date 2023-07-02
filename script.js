@@ -57,7 +57,7 @@ let clear = document.querySelector(".c");
 
 nums.forEach(num => {
     num.addEventListener("click", () => {
-        if (content.textContent.length <= 10) {
+        if (content.textContent.length <= 8) {
             if (content.textContent == "NaN") {
                 content.textContent = num.textContent;
             }
