@@ -135,36 +135,36 @@ equals.addEventListener("click", () => {
     console.log(numberTwo + " | two");
 
     if (addBool == true) {
-        if (add(numberOne, numberTwo) > 99999999999) {
+        if (add(numberOne, numberTwo) > 999999999) {
             content.textContent = "NaN";
         }
 
         else {
-            content.textContent = +add(numberOne, numberTwo).toFixed(6);
+            content.textContent = +add(numberOne, numberTwo).toFixed(3);
         }
 
         addBool = false;
     }
 
     else if (subBool == true) {
-        content.textContent = +subtract(numberOne, numberTwo).toFixed(6);
+        content.textContent = +subtract(numberOne, numberTwo).toFixed(3);
         subBool = false;
     }
 
     else if (multBool == true) {
-        if (multiply(numberOne, numberTwo) > 99999999999) {
+        if (multiply(numberOne, numberTwo) > 999999999) {
             content.textContent = "NaN";
         }
 
         else {
-            content.textContent = +multiply(numberOne, numberTwo).toFixed(6);
+            content.textContent = +multiply(numberOne, numberTwo).toFixed(3);
         }
 
         multBool = false;
     }
 
     else if (diviBool == true) {
-        content.textContent = +divide(numberOne, numberTwo).toFixed(6);
+        content.textContent = +divide(numberOne, numberTwo).toFixed(3);
         diviBool = false;
     }
 });

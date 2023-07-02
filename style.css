@@ -116,12 +116,16 @@ button:active {
     color: white;
 }
 
+/* really bad style but works i guess */
 .copyright {
     display: flex;
     justify-content: center;
     margin-left: 5px;
+    height: 25px;
+    width: 25px;
 }
 
 .github {
     height: 25px;
+    width: 25px;
 }
